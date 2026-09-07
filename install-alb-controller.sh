@@ -180,7 +180,7 @@ aws iam create-policy \
 #  ALB gets created ✅
 #
 #  HOW TO FIND YOUR NODE ROLE NAME:
-#  -->aws iam list-roles | grep NodeInstanceRole
+#  👉aws iam list-roles | grep NodeInstanceRole
 #
 #  YOUR VALUES:
 #  Role Name  : eksctl-my-eks-cluster-nodegroup-my-NodeInstanceRole-zmPRf39npNpJ
