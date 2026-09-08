@@ -38,6 +38,10 @@ aws ecr create-repository --repository-name login-app   --region <REGION>
 aws ecr create-repository --repository-name order-app   --region <REGION>
 aws ecr create-repository --repository-name payment-app --region <REGION>
 
+aws ecr create-repository --repository-name login-app   --region us-east-1
+aws ecr create-repository --repository-name order-app   --region us-east-1
+aws ecr create-repository --repository-name payment-app --region us-east-1
+
 
 # ─────────────────────────────────────────────
 #  STEP 3 — Build, Tag & Push Docker Images
